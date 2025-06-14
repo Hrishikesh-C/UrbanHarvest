@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-button {
+  font-size: 1rem;
+  backdrop-filter: blur(3px);
+}
+/* index.css */
+.slick-dots li.slick-active button:before {
+  color: #2e604a !important;
+}
+.slick-prev:before, .slick-next:before {
+  color: #2e604a !important;
+}
